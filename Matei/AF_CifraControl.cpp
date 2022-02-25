@@ -11,3 +11,4 @@ int cifraControl(int n)
     }
     return s;
 }
+matei e gay
