@@ -1,26 +1,24 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-long long int put(int p, int n){
-    if(p == 0)
-        return 1;
-    return put(p-1, n)*n;
-}
-long long int fact(long long int n){
-    if(n == 1)
-        return 1;
-    return fact(n-1)*n;
-}
+
+
 int main(){
     ofstream out("bac.txt");
-    int r;
-    long long int n, p = 9;
+    int aux,i,r = 0;
+    int n;
     cin>>n;
-    n = fact(n);
-    for(int i = 1; p <= n;i++){
-        p = put(i,45);
-        if(n%p == 0)
-            r = i;
+    for(i = 1; i*5 <= n; i++){
+        aux = i;
+        cout<<"da";
+        r++;
+        while(!(aux%5)){
+            r++;
+            cout<<"nu";
+            aux /= 5;
+        }
     }
-    out<<r;
+    f = fact(n);
+    p = put(r,45);
+    out<<n < 6 ? 0 : r;
 }
