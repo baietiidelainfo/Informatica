@@ -11,6 +11,9 @@ int main(){
         in>>parinte;
         vD[parinte]++;
     }
+    for(i = 1; i <= n; i++){
+        cout<<vD[i]<<' ';
+    }
     cout<<"Frunze:";
     for(i = 1; i <= n; i++){
         if(vD[i] == 0)

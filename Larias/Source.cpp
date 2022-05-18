@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <cstring>
-using namespace std;
-
-
-int main() {fsdfgdf
-	printf("Hello mata");
-	return 0;
+#include <iostream>
+void a(){}
+int main(){
+    
+    std::cout<<std::endl<<a();
 }
